@@ -13,16 +13,12 @@
     --backup-color: rgb(244, 116, 59);
 }
 
-body{
-    height: 100vh;
-}
-
-main{
-    height: 600px;
+body .hero{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:auto;
 }
 
 
@@ -31,16 +27,54 @@ main{
     height: 800px;
 }
 
+/* Wanted to add an outline to the letters to see better when on an image so I looked up the black outline around the letters*/
 .hero .title{
     position: absolute;
-    top: 10%;
     font-size: 80px;
-    right: 33%;
+    top: 20%;
+    color: var(--bg-primary);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .hero .subtitle{
     position: absolute;
-    top: 30%;
     font-size: 45px;
-    right: 34%;
+    top: 35%;
+    color: var(--bg-primary);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.hero i{
+    position: absolute;
+    font-size: 150px;
+    top: 40%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: var(--font-color-secondary);
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.second .timesquare{
+    width: 100%;
+    height: 800px;
+}
+
+.second .introLeft .sectionHeading{
+    position: absolute;
+    font-size: 45px;
+    top: 100%;
+    left: 6%;
+    width: 30%;
+    color: var(--font-color-secondary);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
