@@ -78,3 +78,26 @@ body .hero{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+
+.second .introRight .introDesc{
+    position: absolute;
+    font-size: 20px;
+    top: 100%;
+    right: 10%;
+    width: 45%;
+    color: var(--font-color-primary);
+    border: 3px black solid;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px 5px;
+    
+}
+
+.second .introRight .ctaBtn{
+    position: absolute;
+    font-size: 20px;
+    top: 150%;
+    right: 31.1%;
+    width: 23.3%;
+    color: maroon;
+}
