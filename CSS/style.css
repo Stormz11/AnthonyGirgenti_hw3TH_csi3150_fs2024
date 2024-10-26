@@ -17,6 +17,8 @@ body{
     background-color: lightblue;
 }
 
+
+/* Tried to use background-image, it worked the hero section but didn't work for the other sections or images*/
 body .hero{
     display: flex;
     flex-direction: column;
@@ -245,7 +247,7 @@ body .hero{
     color: red;
 }
 
-/*Forgot to do a part...fun */
+/*Forgot to do a part...fun Did the parts*/
 
 .bkg1{
     width: 100%;
@@ -373,7 +375,6 @@ footer .leftFoot ul{
 footer .iconWrapper{
     font-size: 70px;
     margin-top: 15px;
-    transition: 0.3s ease;
 }
 
 footer .iconWrapper:hover{
